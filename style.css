@@ -1,0 +1,46 @@
+* {
+    font-family: 'uchen';
+}
+
+.welcome {
+    text-align: center;
+}
+
+.score-container {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 50%;
+    border: 2px solid black;
+}
+
+.gameStats {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+#gamesPlayed {
+   
+}
+
+#wins {
+    
+}
+
+#losses {
+    
+}
+
+#ties{
+    
+}
+
+
+#clear {
+    position: relative;
+    left: 39%;
+    
+}
