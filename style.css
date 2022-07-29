@@ -6,6 +6,7 @@
     text-align: center;
 }
 
+/* aside section container and contents */
 .score-container {
     position: relative;
     float: left;
@@ -42,5 +43,43 @@
 #clear {
     position: relative;
     left: 39%;
+    
+}
+
+.inputContainer {
+    border: 1px solid black;
+    position: relative;
+    left: 372px;
+    top: 58px;
+    width: 50%;
+}
+
+
+
+#playerInput {
+    /* position: absolute; */
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 100px;
+    left: 230px;
+    top: 197px;
+}
+
+#computerInput {
+    /* position: absolute; */
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 100px;
+    left: 400px;
+    top: 197px;
+}
+
+#winnerStatement {
+    /* position: absolute; */
+    /* border: 1px solid blue; */
+    width: 100px;
+    height: 100px;
+    left: 315px;
+    top: 328px;
     
 }

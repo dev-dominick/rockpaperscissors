@@ -1,51 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Uchen&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <main>
-      <div></div>
+        <div></div>
     </main>
 
     <section class="welcome">
-      <h1>Welcome to the browser based Rock Paper Scissors game</h1>
-      <h3>Please click start to play</h3>
+        <h1>Welcome to the Rock Paper Scissors game</h1>
+        <h3>Press start to play after you make your selection</h3>
 
-      <div>
+        <div>
+            <select id="choices">
+                <option value="Rock">Rock</option>
+                <option value="Paper">Paper</option>
+                <option value="Scissors">Scissors</option>
+            </select>
 
-        <select id="choices">
-          <option value="Rock">Rock</option>
-          <option value="Paper">Paper</option>
-          <option value="Scissors">Scissors</option>
-        </select>
-
-        <button id="start">start</button>
-
-      </div>
-      
+            <button id="start">start</button>
+        </div>
     </section>
 
-    <section class="score-container">
-      <div class="gameStats">
-        <p>Games Played: <span id="gamesPlayed"></span></p>
-        <p>Wins: <span id="wins"></span></p>
-        <p>Losses: <span id="losses"></span></p>
-        <p>Ties: <span id="ties"></span></p>
-      </div>
-      <button id="clear">reset</button>
+    
+
+    <section class="inputContainer">
+        
+            <p>Player Choice: <span id="playerInput"></span> </p>
+    
+            <p >Computer Choice: <span id="computerInput"></span></p>
+
+            <p>Winner info: <span id="winnerStatement"></span></p>
+   
+
     </section>
+
+    <aside class="score-container">
+        <div class="gameStats">
+            <p>Games Played: <span id="gamesPlayed"></span></p>
+            <p>Wins: <span id="wins"></span></p>
+            <p>Losses: <span id="losses"></span></p>
+            <p>Ties: <span id="ties"></span></p>
+        </div>
+        <button id="clear">reset</button>
+    </aside>
+
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
