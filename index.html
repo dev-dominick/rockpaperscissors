@@ -15,7 +15,6 @@
   </head>
 
   <body>
-
     <main>
       <div></div>
     </main>
@@ -23,20 +22,29 @@
     <section class="welcome">
       <h1>Welcome to the browser based Rock Paper Scissors game</h1>
       <h3>Please click start to play</h3>
+
       <div>
+
+        <select id="choices">
+          <option value="Rock">Rock</option>
+          <option value="Paper">Paper</option>
+          <option value="Scissors">Scissors</option>
+        </select>
+
         <button id="start">start</button>
+
       </div>
+      
     </section>
 
     <section class="score-container">
-        <div class="gameStats">
-            <p>Games Played: <span id="gamesPlayed"></span></p>
-            <p>Wins: <span id="wins"></span></p>
-            <p>Losses: <span id="losses"></span></p>
-            <p>Ties: <span id="ties"></span></p>
-        </div>
-            <button id="clear">reset</button>
-        
+      <div class="gameStats">
+        <p>Games Played: <span id="gamesPlayed"></span></p>
+        <p>Wins: <span id="wins"></span></p>
+        <p>Losses: <span id="losses"></span></p>
+        <p>Ties: <span id="ties"></span></p>
+      </div>
+      <button id="clear">reset</button>
     </section>
     <script src="script.js"></script>
   </body>
